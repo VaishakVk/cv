@@ -1,6 +1,12 @@
+::selection {
+  color: white; 
+  background: yellow;
+}
+
 body {
 	margin: 0px;
 	font-family: Roboto;
+	font-size: 18px;
 	line-height: 1.7;
 	color: #393e46;
 }
@@ -18,6 +24,9 @@ span {
 	font-weight: bold;
 }
 
+hr {
+	width: 50px;
+}
 .header {
 	position: fixed;
 	background-color: #393e46; 
@@ -30,6 +39,7 @@ span {
 	height: 70px;
 	margin-top: 10px;
 	margin-left: 30px;
+	width: 70px;
 }
 
 .intro {
@@ -37,6 +47,8 @@ span {
 	width: 100%;
 	min-height: 340px;
 	padding-top: 100px;
+	margin-top: 0px;
+	border-bottom: 2px solid #393e46;
 }
 
 .intro-desc {
@@ -55,6 +67,7 @@ span {
 	margin: 0px auto 15px auto;
 	background-color: #fafafa;
 	padding: 40px 0;
+	min-height: 100%;
 
 }
 
@@ -74,4 +87,80 @@ span {
 	margin-top: 15px;
 	text-align: center;
 	padding: 10px;
+}
+
+.navigation {
+	float: right;
+	padding: 20px;
+}
+
+.navigation .nav-link {
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	color: #fff;
+	font-weight: lighter;
+}
+
+.WElist {
+	margin: 0px;
+}
+
+.title {
+	font-family: 'Muli', sans-serif;
+	font-size: 40px;
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+	/*float: left;*/
+	/*height: 300px;*/
+	/*border: 1px solid black;*/
+	text-align: right;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.desc {
+	vertical-align: top;
+	display: inline-block;
+	text-align: left;
+	width: 49%;
+	/*border: 1px solid black;*/
+	margin-left: 20px;
+	margin-top: 20px;
+	/*float: left;*/
+}
+
+.ul-skills {
+	margin-top: 0px;
+	padding: 10px;
+}
+
+.download {
+	vertical-align: top;
+	display: inline-block;
+	text-align: left;
+	width: 45%;
+	margin-top: 45px;
+	margin-left: 30px;
+	/*text-align: center;*/
+}
+
+.download-btn {
+	border: 2px solid #393e46;
+	text-decoration: none;
+	color: #393e46;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+}
+
+.nav-link:hover {
+	opacity: 0.4;
+}
+
+.download-btn:hover {
+	background-color: #393e46;
+	color: white;
 }
